@@ -1,0 +1,14 @@
+.info-button{
+    position: absolute;
+    top: max(25px, 2vw);
+    right: max(25px, 3vw);
+    width: max(50px, 3.5vw);
+    height: max(50px, 3.5vw);
+    border-radius: max(25px, 1.75vw);
+    background-color: rgba(75, 68, 102, 0.8);
+    text-align: center;
+    line-height: max(50px, 3.5vw);
+    font-size: max(35px, 2.7vw);
+    text-decoration: none;
+    color: #ededf0;
+}

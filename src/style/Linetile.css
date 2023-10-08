@@ -1,0 +1,14 @@
+.linetile{
+    display: inline-flex;
+    flex-direction: column;
+    height: 100%;
+    width: calc(100% / 7);
+    background-color: rgba(75, 68, 102, 0.8);
+    color: #f9f5f5;
+    text-align: center;
+    padding: 15px;
+}
+
+.data{
+    margin-bottom: 10px;
+}

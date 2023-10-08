@@ -1,0 +1,16 @@
+.todo-block{
+    height: 100%;
+    flex-grow: 1;
+    margin-left: 1vh;
+}
+
+.todo{
+    display: flex;
+    position: relative;
+    background-color: rgba(75, 68, 102, 0.8);
+    color: #ededf0;
+    width: 100%;
+    height: calc(100% - 40px);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

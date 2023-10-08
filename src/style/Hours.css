@@ -1,0 +1,22 @@
+.hours {
+    display: flex;
+    position: relative;
+    height: 100%;
+    padding: 0.5vh;
+    min-width: 320px;
+    width: 320px;
+    flex-direction: column;
+}
+  
+.hours .inner-content{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    overflow-y: scroll;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.hours .inner-content::-webkit-scrollbar {
+    display: none;
+}

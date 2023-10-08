@@ -1,0 +1,29 @@
+.coltile {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(75, 68, 102, 0.8);
+    color: #f9f5f5;
+    line-height: 60px;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-bottom: #f9f5f5 solid 2px;
+}
+
+.coltile-right *{
+    display: inline-flex;
+    line-height: 60px;
+}
+
+
+.coltile-right {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.coltile-right h3 {
+    margin-right: 20px; /* Adjust the margin value as needed */
+}
+

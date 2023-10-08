@@ -1,0 +1,29 @@
+.box-cinfo{
+    height: 100%;
+    aspect-ratio: 2 / 3;
+    flex-direction: column;
+}
+
+.current-info{
+    display: flex;
+    position: relative;
+    background-color: rgba(75, 68, 102, 0.8);
+    height: calc(100% - 40px);
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    flex-direction: column;
+    text-align: center;
+    color: #f9f5f5;
+    padding: 20px;
+}
+
+.current-info h1{
+    font-size: 4em;
+    line-height: 0.75em;
+}
+
+.current-info h2{
+    margin-top: auto;
+}
+
